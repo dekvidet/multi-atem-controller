@@ -1,0 +1,102 @@
+{
+  switchers: [
+    {
+      name: 'atem 1',
+      ip: 11
+    }, {
+      name: 'atem 2',
+      ip: 22
+    }
+  ],
+  handlers: [
+    {
+      key: 1,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 1,
+        }
+      ]
+    }, {
+      key: 2,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 2,
+        }
+      ]
+    }, {
+      key: 3,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 3,
+        }
+      ]
+    }, {
+      key: 4,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 4,
+        }
+      ]
+    }, {
+      key: 5,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 5,
+        }, {
+           switcherName: 'atem 2',
+           me: 0,
+           program: 1,
+        }
+      ]
+    }, {
+      key: 6,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 5,
+        }, {
+           switcherName: 'atem 2',
+           me: 0,
+           program: 2,
+        }
+      ]
+    }, {
+      key: 7,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 5,
+        }, {
+           switcherName: 'atem 2',
+           me: 0,
+           program: 3,
+        }
+      ]
+    }, {
+      key: 8,
+      commands: [
+        {
+           switcherName: 'atem 1',
+           me: 1,
+           preview: 5,
+        }, {
+           switcherName: 'atem 2',
+           me: 0,
+           program: 4,
+        }
+      ]
+    }
+  ]
+}
